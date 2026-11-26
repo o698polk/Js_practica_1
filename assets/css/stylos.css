@@ -1,80 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: #b6d1fa;
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-.calculadora{
+
+.calculadora {
     background: white;
-    width: 300px;
+    width: 380px;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
-h1{
+
+h1 {
     text-align: center;
-    color:rgb(63, 76, 83);
+    color: #2563eb;
     margin-bottom: 15px;
 }
- .calculadora p{
- text-align: center;
- margin-bottom: 20px;
- color: rgb(138, 137, 137);
- }
-  label{
+
+.calculadora p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+label {
     display: block;
     margin-bottom: 8px;
-    font-size: bold;
-  }
+    font-weight: bold;
+}
 
-  input{
+input {
     width: 100%;
     padding: 12px;
     margin-bottom: 18px;
-    border:  2px solid rgb(71, 71, 71);
+    border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
-  }
+}
 
-  .botones{
+.botones {
     display: flex;
     gap: 10px;
-  }
+}
 
-  button{
-    flex:1;
+button {
+    flex: 1;
     padding: 12px;
-    border:none;
-    border-radius: 7px;
-    background: #82a2e7;
-  }
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
 
-  button:hover{
-    background: rgb(151, 149, 149);
-  }
-  .resultados{
+button:hover {
+    background: #1d4ed8;
+}
+
+.resultado {
     margin-top: 25px;
     padding: 15px;
-    background: rgb(101, 200, 179);
+    background: #eff6ff;
     border-radius: 8px;
     text-align: center;
-  }
-  .resultados h3 {
-    color:rgb(54, 54, 54);
+}
 
+.resultado h3 {
+    color: #1e40af;
     margin-bottom: 10px;
-  }
-  #resultado{
+}
+
+#resultado {
     font-size: 20px;
     font-weight: bold;
-    color:rgb(3, 100, 10);
-  }
-  
+    color: #16a34a;
+}
