@@ -60,3 +60,21 @@ h1{
   button:hover{
     background: rgb(151, 149, 149);
   }
+  .resultados{
+    margin-top: 25px;
+    padding: 15px;
+    background: rgb(101, 200, 179);
+    border-radius: 8px;
+    text-align: center;
+  }
+  .resultados h3 {
+    color:rgb(54, 54, 54);
+
+    margin-bottom: 10px;
+  }
+  #resultado{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(3, 100, 10);
+  }
+  
